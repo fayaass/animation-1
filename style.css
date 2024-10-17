@@ -1,0 +1,26 @@
+@keyframes animation{
+    0%{background-color: red; top: 10px;}
+    10%{background-color: red; top: 100px;}
+    20%{background-color: red; top: 200px;}
+    30%{background-color: red; top: 300px;}
+    40%{background-color: red; top: 400px;}
+    50%{background-color: red; top: 500px;}
+    60%{background-color: red; top: 600px;}
+    70%{background-color: red; top: 700px;}
+    80%{background-color: red; top: 800px;}
+    90%{background-color: red; top: 900px;}
+    100%{background-color: red; top: 1000px;}
+
+}
+
+.main{
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    border-radius: 50px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease ease-in-out;
+}
